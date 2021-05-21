@@ -21,14 +21,14 @@ This is essentially a copy of an earlier year's procedure. The gptp2017-latex-ma
 
 Just to make sure everything is set up correctly on your machine:
 
-1. You can download the latex format/instructions/template from Springer directly and properly name your chapter. The link is [here](https://www.springer.com/gp/authors-editors/book-authors-editors/your-publication-journey/manuscript-preparation). You have to scroll down and go to **Layouts & Templates**, then **LaTex template** and then **contributed books**. There, you should find a zip file that you can use to prepare your chapter.
-2. Navigate to the folder created, and then to `gptp2021-chapter`. 
-3. Open the file `author.tex` in your LaTeX editor of choice
-4. Render the document (all dependencies used by the example chapter, including images and references, are already here in this directory)
-5. Take a moment to look over the document produced. It's loaded with helpful information for your own manuscript preparation!
-6. Look over the documentation provided by Springer, which is stored in `documentation/authinst.pdf`. It's great!
+1. You can download the latex format/instructions/template from Springer directly and properly name your chapter. The link is [here](https://www.springer.com/gp/authors-editors/book-authors-editors/your-publication-journey/manuscript-preparation). You have to scroll down and go to **Layouts & Templates**, then **LaTex template** and then **contributed books**. There, you will download a zip file that you can use to prepare your chapter. Unzip the file which will result in a folder.
+2. Navigate to the folder created, and then to the `editor` subfolder. 
+3. Open the file `author.tex` in your LaTeX editor of choice. Keep in mind that your chapter is one of a larger group of chapters, so when you want to compile it is `editor.tex` you need to compile! 
+5. Render the document (all dependencies used by the example chapter, including images and references, are already here in this directory)
+6. Take a moment to look over the document produced. It's loaded with helpful information for your own manuscript preparation!
+7. Look over the documentation provided by Springer, which is stored in `documentation/authinst.pdf`. It's great!
 
-OK, so now we both know your LaTeX installation is working! Now:
+OK, so now we both know your LaTeX installation is working! Now:wan
 
 #### Start fresh
 
@@ -36,7 +36,7 @@ Make a copy of the file `author.tex`, leaving it where it is for now
 
 #### Pick a useful filename
 
-Rename the file to something more useful, like `yourname.tex` for example, or some other name that will help us know whose chapter it is.
+Rename the file to something more useful, like `yourname.tex` for example, or some other name that will help us know whose chapter it is. You can now include that file in the editor.tex instead of author.tex, and it should be rendered for you.
 
 #### Add chapter name
 
