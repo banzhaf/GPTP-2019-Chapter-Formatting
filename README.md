@@ -21,7 +21,7 @@ This is essentially a copy of an earlier year's procedure. The gptp2017-latex-ma
 
 Just to make sure everything is set up correctly on your machine:
 
-1. You can clone or download this repository; unzip it if necessary. Alternatively, you can download the latex format/instructions/template from Springer directly and properly name your chapter. 
+1. You can download the latex format/instructions/template from Springer directly and properly name your chapter. The link is here [https://www.springer.com/gp/authors-editors/book-authors-editors/your-publication-journey/manuscript-preparation]. You have to scroll down and go to **Layouts & Templates**, then **LaTex template** and then **contributed books**. There, you should find a zip file that you can use to prepare your chapter.
 2. Navigate to the folder created, and then to `gptp2021-chapter`. 
 3. Open the file `author.tex` in your LaTeX editor of choice
 4. Render the document (all dependencies used by the example chapter, including images and references, are already here in this directory)
